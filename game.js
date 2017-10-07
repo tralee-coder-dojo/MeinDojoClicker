@@ -4,5 +4,5 @@ let scoreElement = document.getElementById('score');
 
 cookieElement.addEventListener('click', function(){
     score++;
-    scoreElement.textContent = score + "points";
+    scoreElement.textContent = score + " Spoopy Points";
 });
